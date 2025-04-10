@@ -8,10 +8,12 @@ class ColorGenerator {
   ColorGenerator({Random? random}) : _random = random ?? Random();
 
   Color generateRandomColor() {
+    const number = 256;
+
     return Color.fromRGBO(
-      _random.nextInt(256),
-      _random.nextInt(256),
-      _random.nextInt(256),
+      _random.nextInt(number),
+      _random.nextInt(number),
+      _random.nextInt(number),
       1.0,
     );
   }

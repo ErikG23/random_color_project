@@ -13,6 +13,7 @@ class ColorRepositoryImpl implements ColorRepository {
   @override
   ColorEntity generateRandomColor() {
     final randomColor = _colorGenerator.generateRandomColor();
+
     return ColorEntity(value: randomColor);
   }
 }

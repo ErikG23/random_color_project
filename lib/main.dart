@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: BlocProvider(
-        create: (context) {
+        create: (_) {
           final colorGenerator = ColorGenerator();
           final colorRepository = ColorRepositoryImpl(
             colorGenerator: colorGenerator,
