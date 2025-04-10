@@ -15,11 +15,12 @@ dependencies:
 
   flutter_bloc: ^9.1.0
   meta: ^1.15.0
-  solid_lints: ^0.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  solid_lints: ^0.3.0
+
 
 
 
