@@ -38,7 +38,7 @@ The application follows a clean architecture approach with these layers:
 
 1. Ensure Flutter is installed on your machine
 2. Clone the repository
-3. Flutter version: 3.24.1
+3. Flutter version: 3.29.2
 4. Run `flutter pub get` to install dependencies
 5. Run `flutter run` to start the application
 
